@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_gaussian_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_gaussian" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="38451485000fs"></ZoomStartTime>
+      <ZoomEndTime time="38454443001fs"></ZoomEndTime>
+      <Cursor1Time time="38453950000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="222"></NameColumnWidth>
+      <ValueColumnWidth column_width="88"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/tb_gaussian/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/HSYNC_in" type="logic">
+      <obj_property name="ElementShortName">HSYNC_in</obj_property>
+      <obj_property name="ObjectShortName">HSYNC_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/VSYNC_in" type="logic">
+      <obj_property name="ElementShortName">VSYNC_in</obj_property>
+      <obj_property name="ObjectShortName">VSYNC_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/input_img" type="array">
+      <obj_property name="ElementShortName">input_img[23:0]</obj_property>
+      <obj_property name="ObjectShortName">input_img[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/FINAL_MODULE/col_count" type="array">
+      <obj_property name="ElementShortName">col_count[9:0]</obj_property>
+      <obj_property name="ObjectShortName">col_count[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/FINAL_MODULE/col_count_1" type="array">
+      <obj_property name="ElementShortName">col_count_1[9:0]</obj_property>
+      <obj_property name="ObjectShortName">col_count_1[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/FINAL_MODULE/col_count_2" type="array">
+      <obj_property name="ElementShortName">col_count_2[9:0]</obj_property>
+      <obj_property name="ObjectShortName">col_count_2[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/FINAL_MODULE/row_count" type="array">
+      <obj_property name="ElementShortName">row_count[8:0]</obj_property>
+      <obj_property name="ObjectShortName">row_count[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/FINAL_MODULE/row_count_1" type="array">
+      <obj_property name="ElementShortName">row_count_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">row_count_1[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/FINAL_MODULE/row_count_2" type="array">
+      <obj_property name="ElementShortName">row_count_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">row_count_2[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/FINAL_MODULE/u_control/HSYNC_in" type="logic">
+      <obj_property name="ElementShortName">HSYNC_in</obj_property>
+      <obj_property name="ObjectShortName">HSYNC_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/FINAL_MODULE/u_control/VSYNC_in" type="logic">
+      <obj_property name="ElementShortName">VSYNC_in</obj_property>
+      <obj_property name="ObjectShortName">VSYNC_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/FINAL_MODULE/u_control/row_in" type="array">
+      <obj_property name="ElementShortName">row_in[8:0]</obj_property>
+      <obj_property name="ObjectShortName">row_in[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/FINAL_MODULE/u_control/col_in" type="array">
+      <obj_property name="ElementShortName">col_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">col_in[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/FINAL_MODULE/u_control/col_read" type="array">
+      <obj_property name="ElementShortName">col_read[9:0]</obj_property>
+      <obj_property name="ObjectShortName">col_read[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/FINAL_MODULE/u_control/row_read" type="array">
+      <obj_property name="ElementShortName">row_read[8:0]</obj_property>
+      <obj_property name="ObjectShortName">row_read[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/FINAL_MODULE/u_control/blkram_read_address" type="array">
+      <obj_property name="ElementShortName">blkram_read_address[71:0]</obj_property>
+      <obj_property name="ObjectShortName">blkram_read_address[71:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/FINAL_MODULE/u_control/col_out" type="array">
+      <obj_property name="ElementShortName">col_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">col_out[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/FINAL_MODULE/u_control/row_out" type="array">
+      <obj_property name="ElementShortName">row_out[8:0]</obj_property>
+      <obj_property name="ObjectShortName">row_out[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/FINAL_MODULE/u_control/HSYNC_out" type="logic">
+      <obj_property name="ElementShortName">HSYNC_out</obj_property>
+      <obj_property name="ObjectShortName">HSYNC_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/FINAL_MODULE/u_control/VSYNC_out" type="logic">
+      <obj_property name="ElementShortName">VSYNC_out</obj_property>
+      <obj_property name="ObjectShortName">VSYNC_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/FINAL_MODULE/u_conv_unit/data" type="array">
+      <obj_property name="ElementShortName">data[215:0]</obj_property>
+      <obj_property name="ObjectShortName">data[215:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/FINAL_MODULE/u_conv_unit/pixel_out" type="array">
+      <obj_property name="ElementShortName">pixel_out[23:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_out[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/output_img" type="array">
+      <obj_property name="ElementShortName">output_img[23:0]</obj_property>
+      <obj_property name="ObjectShortName">output_img[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/valid_delay" type="logic">
+      <obj_property name="ElementShortName">valid_delay</obj_property>
+      <obj_property name="ObjectShortName">valid_delay</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_gaussian/fo_idx" type="array">
+      <obj_property name="ElementShortName">fo_idx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fo_idx[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

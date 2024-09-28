@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Dec  6 18:13:41 2023
+# Process ID: 18796
+# Current directory: C:/Users/rlatk/OneDrive - SNU/Study/SNU 2-2/Digital Logic Design and Lab/final_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19336 C:\Users\rlatk\OneDrive - SNU\Study\SNU 2-2\Digital Logic Design and Lab\final_project\final_project.xpr
+# Log file: C:/Users/rlatk/OneDrive - SNU/Study/SNU 2-2/Digital Logic Design and Lab/final_project/vivado.log
+# Journal file: C:/Users/rlatk/OneDrive - SNU/Study/SNU 2-2/Digital Logic Design and Lab/final_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/rlatk/OneDrive - SNU/Study/SNU 2-2/Digital Logic Design and Lab/final_project/final_project.xpr}
+launch_simulation
+update_compile_order -fileset sources_1
+launch_simulation

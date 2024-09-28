@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Mar  8 14:32:18 2024
+# Process ID: 22532
+# Current directory: C:/Users/rlatk/OneDrive/Study/SNU 2-2/Digital Logic Design and Lab/final_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3376 C:\Users\rlatk\OneDrive\Study\SNU 2-2\Digital Logic Design and Lab\final_project\final_project.xpr
+# Log file: C:/Users/rlatk/OneDrive/Study/SNU 2-2/Digital Logic Design and Lab/final_project/vivado.log
+# Journal file: C:/Users/rlatk/OneDrive/Study/SNU 2-2/Digital Logic Design and Lab/final_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/rlatk/OneDrive/Study/SNU 2-2/Digital Logic Design and Lab/final_project/final_project.xpr}
+launch_simulation
+open_wave_config {C:/Users/rlatk/OneDrive/Study/SNU 2-2/Digital Logic Design and Lab/final_project/tb_gaussian_behav.wcfg}
+source tb_gaussian.tcl
+update_compile_order -fileset sources_1
+run 120 ms
+close_sim

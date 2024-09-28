@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../final_project.srcs/sources_1/imports/final_project_toolkit/jdk-17.0.2/include" --include "../../../../final_project.srcs/sources_1/imports/final_project_toolkit/jdk-17.0.2/include/win32" --include "../../../../final_project.srcs/sources_1/imports/final_project_toolkit/jdk-17.0.2/include/win32/bridge" \
+"../../../../final_project.srcs/sources_1/imports/final_project_toolkit/skeleton1/adder_10bit.v" \
+"../../../../final_project.srcs/sources_1/imports/final_project_toolkit/skeleton1/adder_12bit.v" \
+"../../../../final_project.srcs/sources_1/imports/final_project_toolkit/skeleton1/adder_4bit.v" \
+"../../../../final_project.srcs/sources_1/imports/final_project_toolkit/skeleton1/adder_8bit.v" \
+"../../../../final_project.srcs/sources_1/imports/final_project_toolkit/skeleton1/adder_9bit.v" \
+"../../../../final_project.srcs/sources_1/imports/final_project_toolkit/skeleton1/adder_remainder_10bit.v" \
+"../../../../final_project.srcs/sources_1/imports/final_project_toolkit/skeleton1/block_ram.v" \
+"../../../../final_project.srcs/sources_1/imports/final_project_toolkit/skeleton1/control.v" \
+"../../../../final_project.srcs/sources_1/imports/final_project_toolkit/skeleton1/conv_unit.v" \
+"../../../../final_project.srcs/sources_1/imports/final_project_toolkit/skeleton1/divider_3.v" \
+"../../../../final_project.srcs/sources_1/imports/final_project_toolkit/skeleton1/final_top_distr.v" \
+"../../../../final_project.srcs/sources_1/imports/final_project_toolkit/skeleton1/interface.v" \
+"../../../../final_project.srcs/sources_1/imports/final_project_toolkit/skeleton1/remainder_480.v" \
+"../../../../final_project.srcs/sources_1/imports/final_project_toolkit/skeleton1/remainder_640.v" \
+"../../../../final_project.srcs/sources_1/imports/final_project_toolkit/skeleton1/watermark.v" \
+"../../../../final_project.srcs/sources_1/imports/final_project_toolkit/skeleton1/tb_gaussian.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
